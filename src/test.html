@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./scripts/APIFunction.js" defer></script>
+    <link rel="stylesheet" href="./styles/main.css">
+    <link rel="stylesheet" href="./styles/normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet"> 
+    <title>Document</title>
+</head>
+<body>
+    <div id="page-title">Weather Today 	&#127783;</div>
+    <form action="" method="get">
+        <label for="city_name"></label>
+        <input type="text" id="city-name" name="city_name" placeholder="City Name..." required>
+        <button type="submit" id="get-name">&#128269;</button>
+    </form>
+    <div class="container">
+        <div class="header">
+            <div id="date">2/1/2022 16:33</div>
+            <div id="name">Los Angeles</div>
+            <div id="feels">Feels like 16&deg;C. Clear Sky</div>
+            <div id="temp">17&deg;C</div>
+        </div>
+        <div class="details-container">
+            <div id="humidity">Humidity: 60%</div>
+            <div id="pressure">Pressure: 1010hPa</div>
+            <div id="visibility">Visibility: 10.0km</div>
+            <div id="wind">wind: 0.0m/s 
+                <div id="direction">&#x2191;</div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
